@@ -9331,7 +9331,7 @@ MonoBehaviour:
   timeSpawn: 3
   xRangeCoord: 10
   enemyRate: 50
-  PrefabEnemy: {fileID: 4166921294703012964, guid: 7800cef678fe383428b74253a4404d96, type: 3}
+  PrefabEnemy: {fileID: 7454234215348086131, guid: 9984e16d61e3f2b47b88a924d8d2a5d3, type: 3}
   PrefabAlly: {fileID: 346424527345889724, guid: b7ceae64c62ca7e448c689d0992bd5a9, type: 3}
 --- !u!4 &634199881 stripped
 Transform:
