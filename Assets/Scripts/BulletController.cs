@@ -41,7 +41,7 @@ public class BulletController : MonoBehaviour
         // Update the global score and print it in the UI.
         NPCController.POINTS+=score;
         // Find the game object with an UI tag, access to its text component and update the content.
-        GameObject.FindWithTag("UI").GetComponent<Text>().text = "Points: " + (NPCController.POINTS);
+        GameObject.FindWithTag("UI").GetComponent<Text>().text = "" + (NPCController.POINTS);
     }
 
 }
