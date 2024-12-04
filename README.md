@@ -46,22 +46,22 @@ You have 30 seconds to eliminate as many enemies (zombies) as possible. Achieve 
    - The initial screen when running the game.  
    - Allows the player to start or exit the game.  
    - Sets the tone with medieval visuals.  
-    ![Medieval Environment](assets/Images/Pantalla_Inicio.png)
+    ![Medieval Environment](Assets/Images/Pantalla_Inicio.png)
 
 2. **Main Scene (Assignment1-1Scene)**:  
    - The primary gameplay environment.  
    - Most interactions, objects, and assets are found here.  
-   ![Medieval Environment](assets/Images/Playable.png)
+   ![Medieval Environment](Assets/Images/Playable.png)
 
 3. **End_Game Scene**:  
    - Triggered when the player scores less than 10 points.  
    - Displays a static "Game Over" screen with no further interaction.  
-   ![Medieval Environment](assets/Images/Loose.png)
+   ![Medieval Environment](Assets/Images/Loose.png)
 
 4. **Win_Game Scene**:  
    - Triggered when the player scores more than 10 points.  
    - Displays a static "You Win" screen with no further interaction.  
-   ![Medieval Environment](assets/Images/You_Won.png)
+   ![Medieval Environment](Assets/Images/You_Won.png)
 
 ## Logs Locations
 - Windows: C:/Users/<Usuario>/AppData/LocalLow/<Project´s Name>/GameLogs.csv
