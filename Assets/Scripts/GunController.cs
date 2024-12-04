@@ -1,15 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class GunController : MonoBehaviour
 {
     public Transform bulletSpawnPoint; // Postion where the bullet will be spawned
     public GameObject bulletPrefab;
     public float bulletSpeed = 10.0f; // Speed factor of the bullet
+    public InputActionProperty shootAction;
+
     void Update()
     {
-        Shoot();
+        float shootValue = shootAction.action.ReadValue<float>();
+        if (shootValue == 1)
+        {
+            // Lógica para disparar
+            Shoot();
+        }     
     }
     public void Shoot()
     {
